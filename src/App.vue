@@ -1,18 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="bg-primary mx-auto center">
+      <div style="margin: auto;">
+        <div style="display:inline-block;width:200px; height: 200px;border-right: 4px pink dashed;border-bottom: 4px pink dashed;"></div>
+        <div style="display:inline-block;width:200px; height: 200px;border-right: 4px pink dashed;border-bottom: 4px cornflowerblue dashed;"></div>
+        <div style="display:inline-block;width:200px; height: 200px;border-bottom: 4px pink dashed;"></div>
+      </div>
+      <div>
+        <div style="display:inline-block;width:200px; height: 200px;border-right: 4px cornflowerblue dashed;border-bottom: 4px pink dashed;"></div>
+        <div style="display:inline-block;width:200px; height: 200px;border-right: 4px cornflowerblue dashed;border-bottom: 4px cornflowerblue dashed;"></div>
+        <div style="display:inline-block;width:200px; height: 200px;border-bottom: 4px pink dashed;"></div>
+      </div>
+      <div>
+        <div style="display:inline-block;width:200px; height: 200px;border-right: 4px pink dashed;"></div>
+        <div style="display:inline-block;width:200px; height: 200px;border-right: 4px pink dashed;"></div>
+        <div style="display:inline-block;width:200px; height: 200px;"></div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
