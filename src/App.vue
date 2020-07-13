@@ -90,7 +90,7 @@
           <a @click="nivel=3" :class="nivel == 3?'bg-blue-500':'bg-blue-400'" class="mx-2 rounded-full text-white cursor-pointer p-2 h-8 w-8 flex items-center justify-center">3</a>
           <a @click="nivel=4" :class="nivel == 4?'bg-blue-500':'bg-blue-400'" class="mx-2 rounded-full text-white cursor-pointer p-2 h-8 w-8 flex items-center justify-center">4</a>
         </div>
-        <a v-if="jugador1 && jugador2" @click="jugar=true" class="bg-blue-400 text-white text-4xl px-4 py-2 rounded-full border-4 border-blue-500 hover:opacity-50">Jugar</a>
+        <a v-if="jugador1 && jugador2" @click="jugar=true" class="my-10 bg-blue-400 text-white text-4xl px-4 py-2 rounded-full border-4 border-blue-500 hover:opacity-50">Jugar</a>
         <a v-else class="cursor-not-allowed my-10 bg-gray-400 text-white text-4xl px-4 py-2 rounded-full border-4 border-gray-500 hover:opacity-50">Jugar</a>
       </div>
       <div class="text-xl mt-10">El jugador {{ jugador1 ? jugador1 : 1}} empieza co la X</div>
