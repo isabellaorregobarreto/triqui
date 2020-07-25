@@ -257,10 +257,11 @@ export default {
             this.turno = 'X'
             this.revisarSiGano()
           } else {
-            resultado = this.revisarLineaDisponible(1,5,9)
+            resultado = this.revisarLineaDisponible(4,5,6)
+            if(resultado == 0) resultado = this.revisarLineaDisponible(1,5,9)
             if(resultado == 0) resultado = this.revisarLineaDisponible(3,5,7)
             if(resultado == 0) resultado = this.revisarLineaDisponible(1,2,3)
-            if(resultado == 0) resultado = this.revisarLineaDisponible(4,5,6)
+            
             if(resultado == 0) resultado = this.revisarLineaDisponible(7,8,9)
             if(resultado == 0) resultado = this.revisarLineaDisponible(1,4,7)
             if(resultado == 0) resultado = this.revisarLineaDisponible(2,5,8)
